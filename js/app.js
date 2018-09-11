@@ -33,14 +33,6 @@ $(function() {
     const model = {
 
     };
-    // const model = {
-    //     students: [{name: "Slappy The Frog", daysPresent: [1, 3, 4, 5, 6, 7, 10, 11]},
-    //     {name: "Lilly the Lizard", daysPresent: [1, 2, 3, 7, 8, 9, 10]},
-    //     {name: "Paulrus the Walrus", daysPresent: [1,4, 5, 6, 7, 11, 12]},
-    //     {name: "Gregory the Goat", daysPresent: [7, 10, 12]},
-    //     {name: "Adam the Anaconda", daysPresent: [1, 4, 6, 8, 10, 11, 12]}
-    //     ]        
-    // };
 
     const view = {
         init: function () {
@@ -108,12 +100,6 @@ $(function() {
         localStorage.attendance = JSON.stringify(model.students);
       }
     };
-
-    // look at updateStudent...am I updated in the wrong place?  what's in localStorage?
-
-    // now it's not drawing it all
-
-
 
     octopus.init();
 }());
